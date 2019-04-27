@@ -29,15 +29,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+foreach: This iterates over a list and applies some operation with side effects to each list member (example: saving every list item to the database)
+
+map: This iterates over a list, transforms each member of that list, and returns another list of the same size with the transformed members (example: transforming list of strings to uppercase)
 
 2. What is the difference between a function and a method?
+A function is a piece of code that is called by name. It can be passed data to operate on (i.e. the parameters) and can optionally return data (the return value). All data that is passed to a function is explicitly passed.
+
+A method is a piece of code that is called by a name that is associated with an object. In most respects it is identical to a function except for two key differences:
 
 3. What is closure?
+An inner function  always access to the variables and parameters of its outer function, even after the outer function has return
 
 4. Describe the four rules of the 'this' keyword.
+ 1. Window Binding
+* 2. Implicit Binding :left of the dot at call time
+* 3. New Binding
+* 4. Explicit Binding:call apply,bind
 
 5. Why do we need super() in an extended class?
-
+The super keyword is used to access and call functions on an object's parent.
 ## Project Set up
 
 Follow these steps to set up and work on your project:
